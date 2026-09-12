@@ -1,0 +1,11 @@
+,account_access_security,billing_payment_dispute,complaint_poor_service,feedback_praise_resolution,flight_travel_disruption,order_delivery_issue,product_inquiry_availability,service_outage_connectivity,subscription_cancellation_refund,technical_hardware_software_bug
+account_access_security,0,0,0,0,0,20,0,0,0,0
+billing_payment_dispute,0,0,0,0,0,20,0,0,0,0
+complaint_poor_service,0,0,0,0,0,20,0,0,0,0
+feedback_praise_resolution,0,0,0,0,0,20,0,0,0,0
+flight_travel_disruption,0,0,0,0,0,20,0,0,0,0
+order_delivery_issue,0,0,0,0,0,20,0,0,0,0
+product_inquiry_availability,0,0,0,0,0,20,0,0,0,0
+service_outage_connectivity,0,0,0,0,0,20,0,0,0,0
+subscription_cancellation_refund,0,0,0,0,0,20,0,0,0,0
+technical_hardware_software_bug,0,0,0,0,0,20,0,0,0,0

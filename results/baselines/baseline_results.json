@@ -1,0 +1,403 @@
+{
+  "metadata": {
+    "training_samples": 861,
+    "validation_samples": 216,
+    "golden_test_samples": 200,
+    "classes_count": 10,
+    "taxonomy": [
+      "account_access_security",
+      "billing_payment_dispute",
+      "complaint_poor_service",
+      "feedback_praise_resolution",
+      "flight_travel_disruption",
+      "order_delivery_issue",
+      "product_inquiry_availability",
+      "service_outage_connectivity",
+      "subscription_cancellation_refund",
+      "technical_hardware_software_bug"
+    ]
+  },
+  "baseline_1_majority_class": {
+    "name": "MajorityClassClassifier",
+    "majority_class": "order_delivery_issue",
+    "validation_metrics": {
+      "accuracy": 0.1389,
+      "macro_f1": 0.0244,
+      "weighted_f1": 0.0339
+    },
+    "golden_test_metrics": {
+      "accuracy": 0.1,
+      "macro_f1": 0.0182,
+      "weighted_f1": 0.0182,
+      "per_class": {
+        "account_access_security": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 20
+        },
+        "billing_payment_dispute": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 20
+        },
+        "complaint_poor_service": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 20
+        },
+        "feedback_praise_resolution": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 20
+        },
+        "flight_travel_disruption": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 20
+        },
+        "order_delivery_issue": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "f1_score": 0.1818,
+          "support": 20
+        },
+        "product_inquiry_availability": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 20
+        },
+        "service_outage_connectivity": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 20
+        },
+        "subscription_cancellation_refund": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 20
+        },
+        "technical_hardware_software_bug": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 20
+        }
+      }
+    }
+  },
+  "baseline_2_tfidf_logistic_regression": {
+    "name": "TfidfLogisticRegressionClassifier",
+    "hyperparameters": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "max_features": 5000,
+      "C": 1.0,
+      "class_weight": "balanced",
+      "random_state": 42
+    },
+    "validation_metrics": {
+      "accuracy": 0.9028,
+      "macro_f1": 0.86,
+      "weighted_f1": 0.8974
+    },
+    "golden_test_metrics": {
+      "accuracy": 0.88,
+      "macro_f1": 0.8795,
+      "weighted_f1": 0.8795,
+      "per_class": {
+        "account_access_security": {
+          "precision": 0.95,
+          "recall": 0.95,
+          "f1_score": 0.95,
+          "support": 20
+        },
+        "billing_payment_dispute": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1_score": 0.8,
+          "support": 20
+        },
+        "complaint_poor_service": {
+          "precision": 0.9,
+          "recall": 0.9,
+          "f1_score": 0.9,
+          "support": 20
+        },
+        "feedback_praise_resolution": {
+          "precision": 1.0,
+          "recall": 0.7,
+          "f1_score": 0.8235,
+          "support": 20
+        },
+        "flight_travel_disruption": {
+          "precision": 0.9091,
+          "recall": 1.0,
+          "f1_score": 0.9524,
+          "support": 20
+        },
+        "order_delivery_issue": {
+          "precision": 0.6667,
+          "recall": 0.8,
+          "f1_score": 0.7273,
+          "support": 20
+        },
+        "product_inquiry_availability": {
+          "precision": 0.95,
+          "recall": 0.95,
+          "f1_score": 0.95,
+          "support": 20
+        },
+        "service_outage_connectivity": {
+          "precision": 0.9524,
+          "recall": 1.0,
+          "f1_score": 0.9756,
+          "support": 20
+        },
+        "subscription_cancellation_refund": {
+          "precision": 0.8333,
+          "recall": 0.75,
+          "f1_score": 0.7895,
+          "support": 20
+        },
+        "technical_hardware_software_bug": {
+          "precision": 0.9048,
+          "recall": 0.95,
+          "f1_score": 0.9268,
+          "support": 20
+        }
+      }
+    },
+    "top_features_per_class": {
+      "account_access_security": [
+        [
+          "password",
+          3.4566
+        ],
+        [
+          "account",
+          1.9726
+        ],
+        [
+          "sign",
+          1.5294
+        ],
+        [
+          "my password",
+          1.5082
+        ],
+        [
+          "my",
+          1.5037
+        ]
+      ],
+      "billing_payment_dispute": [
+        [
+          "charged",
+          4.3753
+        ],
+        [
+          "uber_support",
+          1.414
+        ],
+        [
+          "charged for",
+          1.3284
+        ],
+        [
+          "fare",
+          1.2378
+        ],
+        [
+          "115873",
+          1.2196
+        ]
+      ],
+      "complaint_poor_service": [
+        [
+          "customer service",
+          2.6384
+        ],
+        [
+          "on hold",
+          2.5622
+        ],
+        [
+          "hold for",
+          2.5559
+        ],
+        [
+          "customer",
+          2.4092
+        ],
+        [
+          "hold",
+          2.3863
+        ]
+      ],
+      "feedback_praise_resolution": [
+        [
+          "thank",
+          3.9846
+        ],
+        [
+          "thank you",
+          3.9559
+        ],
+        [
+          "thanks for",
+          2.6739
+        ],
+        [
+          "you",
+          2.5111
+        ],
+        [
+          "thanks",
+          1.9765
+        ]
+      ],
+      "flight_travel_disruption": [
+        [
+          "flight",
+          3.6982
+        ],
+        [
+          "british_airways",
+          1.7648
+        ],
+        [
+          "americanair",
+          1.7582
+        ],
+        [
+          "delta",
+          1.7118
+        ],
+        [
+          "delayed",
+          1.2321
+        ]
+      ],
+      "order_delivery_issue": [
+        [
+          "delivery",
+          3.3173
+        ],
+        [
+          "package",
+          2.3092
+        ],
+        [
+          "driver",
+          1.8761
+        ],
+        [
+          "upshelp",
+          1.8003
+        ],
+        [
+          "115817",
+          1.6127
+        ]
+      ],
+      "product_inquiry_availability": [
+        [
+          "stock",
+          2.9709
+        ],
+        [
+          "in stock",
+          1.8748
+        ],
+        [
+          "product",
+          1.7534
+        ],
+        [
+          "you sell",
+          1.6961
+        ],
+        [
+          "do you",
+          1.5916
+        ]
+      ],
+      "service_outage_connectivity": [
+        [
+          "internet",
+          3.4847
+        ],
+        [
+          "outage",
+          3.2042
+        ],
+        [
+          "ask_spectrum",
+          2.6005
+        ],
+        [
+          "outage in",
+          1.4716
+        ],
+        [
+          "an outage",
+          1.4247
+        ]
+      ],
+      "subscription_cancellation_refund": [
+        [
+          "refund",
+          4.4064
+        ],
+        [
+          "money",
+          2.3647
+        ],
+        [
+          "get refund",
+          2.1411
+        ],
+        [
+          "get",
+          1.3474
+        ],
+        [
+          "cancel my",
+          1.2981
+        ]
+      ],
+      "technical_hardware_software_bug": [
+        [
+          "update",
+          2.9065
+        ],
+        [
+          "applesupport",
+          2.8521
+        ],
+        [
+          "screen",
+          2.0787
+        ],
+        [
+          "ios",
+          1.985
+        ],
+        [
+          "115858",
+          1.6421
+        ]
+      ]
+    }
+  }
+}

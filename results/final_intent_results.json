@@ -1,0 +1,224 @@
+{
+  "metrics": {
+    "accuracy": 0.88,
+    "macro_precision": 0.8866,
+    "macro_recall": 0.88,
+    "macro_f1": 0.8795,
+    "weighted_f1": 0.8795,
+    "per_class": {
+      "account_access_security": {
+        "precision": 0.95,
+        "recall": 0.95,
+        "f1_score": 0.95,
+        "support": 20
+      },
+      "billing_payment_dispute": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1_score": 0.8,
+        "support": 20
+      },
+      "complaint_poor_service": {
+        "precision": 0.9,
+        "recall": 0.9,
+        "f1_score": 0.9,
+        "support": 20
+      },
+      "feedback_praise_resolution": {
+        "precision": 1.0,
+        "recall": 0.7,
+        "f1_score": 0.8235,
+        "support": 20
+      },
+      "flight_travel_disruption": {
+        "precision": 0.9091,
+        "recall": 1.0,
+        "f1_score": 0.9524,
+        "support": 20
+      },
+      "order_delivery_issue": {
+        "precision": 0.6667,
+        "recall": 0.8,
+        "f1_score": 0.7273,
+        "support": 20
+      },
+      "product_inquiry_availability": {
+        "precision": 0.95,
+        "recall": 0.95,
+        "f1_score": 0.95,
+        "support": 20
+      },
+      "service_outage_connectivity": {
+        "precision": 0.9524,
+        "recall": 1.0,
+        "f1_score": 0.9756,
+        "support": 20
+      },
+      "subscription_cancellation_refund": {
+        "precision": 0.8333,
+        "recall": 0.75,
+        "f1_score": 0.7895,
+        "support": 20
+      },
+      "technical_hardware_software_bug": {
+        "precision": 0.9048,
+        "recall": 0.95,
+        "f1_score": 0.9268,
+        "support": 20
+      }
+    },
+    "confusion_matrix": {
+      "account_access_security": {
+        "account_access_security": 19,
+        "billing_payment_dispute": 0,
+        "complaint_poor_service": 0,
+        "feedback_praise_resolution": 0,
+        "flight_travel_disruption": 0,
+        "order_delivery_issue": 0,
+        "product_inquiry_availability": 0,
+        "service_outage_connectivity": 0,
+        "subscription_cancellation_refund": 1,
+        "technical_hardware_software_bug": 0
+      },
+      "billing_payment_dispute": {
+        "account_access_security": 0,
+        "billing_payment_dispute": 16,
+        "complaint_poor_service": 0,
+        "feedback_praise_resolution": 0,
+        "flight_travel_disruption": 0,
+        "order_delivery_issue": 2,
+        "product_inquiry_availability": 0,
+        "service_outage_connectivity": 0,
+        "subscription_cancellation_refund": 2,
+        "technical_hardware_software_bug": 0
+      },
+      "complaint_poor_service": {
+        "account_access_security": 1,
+        "billing_payment_dispute": 0,
+        "complaint_poor_service": 18,
+        "feedback_praise_resolution": 0,
+        "flight_travel_disruption": 0,
+        "order_delivery_issue": 0,
+        "product_inquiry_availability": 0,
+        "service_outage_connectivity": 0,
+        "subscription_cancellation_refund": 1,
+        "technical_hardware_software_bug": 0
+      },
+      "feedback_praise_resolution": {
+        "account_access_security": 0,
+        "billing_payment_dispute": 0,
+        "complaint_poor_service": 0,
+        "feedback_praise_resolution": 14,
+        "flight_travel_disruption": 0,
+        "order_delivery_issue": 0,
+        "product_inquiry_availability": 0,
+        "service_outage_connectivity": 0,
+        "subscription_cancellation_refund": 0,
+        "technical_hardware_software_bug": 0
+      },
+      "flight_travel_disruption": {
+        "account_access_security": 0,
+        "billing_payment_dispute": 1,
+        "complaint_poor_service": 0,
+        "feedback_praise_resolution": 1,
+        "flight_travel_disruption": 20,
+        "order_delivery_issue": 0,
+        "product_inquiry_availability": 0,
+        "service_outage_connectivity": 0,
+        "subscription_cancellation_refund": 0,
+        "technical_hardware_software_bug": 0
+      },
+      "order_delivery_issue": {
+        "account_access_security": 0,
+        "billing_payment_dispute": 0,
+        "complaint_poor_service": 2,
+        "feedback_praise_resolution": 3,
+        "flight_travel_disruption": 0,
+        "order_delivery_issue": 16,
+        "product_inquiry_availability": 1,
+        "service_outage_connectivity": 0,
+        "subscription_cancellation_refund": 1,
+        "technical_hardware_software_bug": 1
+      },
+      "product_inquiry_availability": {
+        "account_access_security": 0,
+        "billing_payment_dispute": 0,
+        "complaint_poor_service": 0,
+        "feedback_praise_resolution": 0,
+        "flight_travel_disruption": 0,
+        "order_delivery_issue": 1,
+        "product_inquiry_availability": 19,
+        "service_outage_connectivity": 0,
+        "subscription_cancellation_refund": 0,
+        "technical_hardware_software_bug": 0
+      },
+      "service_outage_connectivity": {
+        "account_access_security": 0,
+        "billing_payment_dispute": 1,
+        "complaint_poor_service": 0,
+        "feedback_praise_resolution": 0,
+        "flight_travel_disruption": 0,
+        "order_delivery_issue": 0,
+        "product_inquiry_availability": 0,
+        "service_outage_connectivity": 20,
+        "subscription_cancellation_refund": 0,
+        "technical_hardware_software_bug": 0
+      },
+      "subscription_cancellation_refund": {
+        "account_access_security": 0,
+        "billing_payment_dispute": 1,
+        "complaint_poor_service": 0,
+        "feedback_praise_resolution": 1,
+        "flight_travel_disruption": 0,
+        "order_delivery_issue": 1,
+        "product_inquiry_availability": 0,
+        "service_outage_connectivity": 0,
+        "subscription_cancellation_refund": 15,
+        "technical_hardware_software_bug": 0
+      },
+      "technical_hardware_software_bug": {
+        "account_access_security": 0,
+        "billing_payment_dispute": 1,
+        "complaint_poor_service": 0,
+        "feedback_praise_resolution": 1,
+        "flight_travel_disruption": 0,
+        "order_delivery_issue": 0,
+        "product_inquiry_availability": 0,
+        "service_outage_connectivity": 0,
+        "subscription_cancellation_refund": 0,
+        "technical_hardware_software_bug": 19
+      }
+    },
+    "labels": [
+      "account_access_security",
+      "billing_payment_dispute",
+      "complaint_poor_service",
+      "feedback_praise_resolution",
+      "flight_travel_disruption",
+      "order_delivery_issue",
+      "product_inquiry_availability",
+      "service_outage_connectivity",
+      "subscription_cancellation_refund",
+      "technical_hardware_software_bug"
+    ]
+  },
+  "comparison": {
+    "Majority Class Baseline": {
+      "accuracy": 0.1,
+      "macro_f1": 0.0182,
+      "weighted_f1": 0.0182
+    },
+    "Simple ML Baseline (TF-IDF + LogReg)": {
+      "accuracy": 0.88,
+      "macro_f1": 0.8795,
+      "weighted_f1": 0.8795
+    },
+    "Final Agent Classifier": {
+      "accuracy": 0.88,
+      "macro_f1": 0.8795,
+      "weighted_f1": 0.8795,
+      "macro_precision": 0.8866,
+      "macro_recall": 0.88
+    }
+  }
+}

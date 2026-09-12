@@ -1,0 +1,80 @@
+{
+  "sampling_strategy": "multi_block_stratified_threads",
+  "random_seed": 42,
+  "total_conversations": 10000,
+  "total_tweets": 30396,
+  "unique_brands_count": 103,
+  "top_10_brands": [
+    {
+      "brand": "AmazonHelp",
+      "conversation_count": 672
+    },
+    {
+      "brand": "AppleSupport",
+      "conversation_count": 495
+    },
+    {
+      "brand": "Uber_Support",
+      "conversation_count": 419
+    },
+    {
+      "brand": "Delta",
+      "conversation_count": 362
+    },
+    {
+      "brand": "AmericanAir",
+      "conversation_count": 354
+    },
+    {
+      "brand": "ChipotleTweets",
+      "conversation_count": 348
+    },
+    {
+      "brand": "SouthwestAir",
+      "conversation_count": 330
+    },
+    {
+      "brand": "SpotifyCares",
+      "conversation_count": 323
+    },
+    {
+      "brand": "TMobileHelp",
+      "conversation_count": 298
+    },
+    {
+      "brand": "UPSHelp",
+      "conversation_count": 296
+    }
+  ],
+  "turn_length_distribution": {
+    "4": 1409,
+    "2": 5819,
+    "8": 138,
+    "3": 1521,
+    "5": 410,
+    "6": 373,
+    "7": 149,
+    "118": 1,
+    "12": 16,
+    "11": 21,
+    "9": 52,
+    "10": 55,
+    "13": 17,
+    "21": 2,
+    "19": 2,
+    "23": 2,
+    "20": 2,
+    "18": 2,
+    "15": 5,
+    "17": 1,
+    "22": 1,
+    "14": 2
+  },
+  "conversations_ending_with_inbound": 1764,
+  "conversations_ending_with_inbound_pct": 17.64,
+  "output_files": {
+    "csv": "E:\\hiver_sde_intern_assignment\\data\\processed\\twcs_sample.csv",
+    "jsonl": "E:\\hiver_sde_intern_assignment\\data\\processed\\conversations_sample.jsonl",
+    "metadata": "E:\\hiver_sde_intern_assignment\\data\\processed\\sample_metadata.json"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "file_metadata": {
+    "file_path": "E:\\hiver_sde_intern_assignment\\data\\raw\\twcs.csv",
+    "file_size_bytes": 516508641,
+    "file_size_mb": 492.58,
+    "total_rows": 2811774,
+    "total_columns": 7,
+    "columns": [
+      "tweet_id",
+      "author_id",
+      "inbound",
+      "created_at",
+      "text",
+      "response_tweet_id",
+      "in_response_to_tweet_id"
+    ],
+    "column_dtypes": {
+      "tweet_id": "int64",
+      "author_id": "str",
+      "inbound": "bool",
+      "created_at": "str",
+      "text": "str",
+      "response_tweet_id": "str",
+      "in_response_to_tweet_id": "float64"
+    }
+  },
+  "data_quality": {
+    "null_counts": {
+      "tweet_id": 0,
+      "author_id": 0,
+      "inbound": 0,
+      "created_at": 0,
+      "text": 0,
+      "response_tweet_id": 1040629,
+      "in_response_to_tweet_id": 794335
+    },
+    "duplicate_tweet_ids": 0,
+    "empty_text_count": 0,
+    "min_text_length": 1,
+    "max_text_length": 513,
+    "avg_text_length": 113.89
+  },
+  "author_distribution": {
+    "total_unique_authors": 702777,
+    "unique_brand_accounts": 108,
+    "unique_customer_accounts": 702669,
+    "top_20_brands": [
+      {
+        "brand": "AmazonHelp",
+        "tweet_count": 169840
+      },
+      {
+        "brand": "AppleSupport",
+        "tweet_count": 106860
+      },
+      {
+        "brand": "Uber_Support",
+        "tweet_count": 56270
+      },
+      {
+        "brand": "SpotifyCares",
+        "tweet_count": 43265
+      },
+      {
+        "brand": "Delta",
+        "tweet_count": 42253
+      },
+      {
+        "brand": "Tesco",
+        "tweet_count": 38573
+      },
+      {
+        "brand": "AmericanAir",
+        "tweet_count": 36764
+      },
+      {
+        "brand": "TMobileHelp",
+        "tweet_count": 34317
+      },
+      {
+        "brand": "comcastcares",
+        "tweet_count": 33031
+      },
+      {
+        "brand": "British_Airways",
+        "tweet_count": 29361
+      },
+      {
+        "brand": "SouthwestAir",
+        "tweet_count": 28977
+      },
+      {
+        "brand": "VirginTrains",
+        "tweet_count": 27817
+      },
+      {
+        "brand": "Ask_Spectrum",
+        "tweet_count": 25860
+      },
+      {
+        "brand": "XboxSupport",
+        "tweet_count": 24557
+      },
+      {
+        "brand": "sprintcare",
+        "tweet_count": 22381
+      },
+      {
+        "brand": "hulu_support",
+        "tweet_count": 21872
+      },
+      {
+        "brand": "sainsburys",
+        "tweet_count": 19466
+      },
+      {
+        "brand": "GWRHelp",
+        "tweet_count": 19364
+      },
+      {
+        "brand": "AskPlayStation",
+        "tweet_count": 19098
+      },
+      {
+        "brand": "ChipotleTweets",
+        "tweet_count": 18749
+      }
+    ]
+  },
+  "message_distribution": {
+    "inbound_messages": 1537843,
+    "inbound_percentage": 54.69,
+    "outbound_messages": 1273931,
+    "outbound_percentage": 45.31
+  },
+  "conversation_structure": {
+    "root_tweets_total": 794335,
+    "root_inbound_customer_starters": 787346,
+    "root_outbound_brand_starters": 6989,
+    "tweets_with_responses": 1771145,
+    "tweets_without_responses": 1040629
+  },
+  "temporal_range": {
+    "earliest_timestamp": "2008-05-08 20:13:59+00:00",
+    "latest_timestamp": "2017-12-03 23:14:01+00:00"
+  }
+}

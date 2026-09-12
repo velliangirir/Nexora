@@ -1,0 +1,10 @@
+{
+  "mean_relevance": 4.93,
+  "mean_correctness": 5.0,
+  "mean_groundedness": 4.955,
+  "mean_helpfulness": 5.0,
+  "mean_safety": 5.0,
+  "mean_overall_score": 4.977,
+  "safety_violation_count": 0,
+  "total_replies_evaluated": 200
+}

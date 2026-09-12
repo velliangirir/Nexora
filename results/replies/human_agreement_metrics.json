@@ -1,0 +1,23 @@
+{
+  "overall_score_agreement": {
+    "sample_size": 25,
+    "exact_agreement_pct": 96.0,
+    "within_1_pt_pct": 100.0,
+    "mean_absolute_difference": 0.008,
+    "pearson_correlation": 0.8908
+  },
+  "relevance_agreement": {
+    "sample_size": 25,
+    "exact_agreement_pct": 100.0,
+    "within_1_pt_pct": 100.0,
+    "mean_absolute_difference": 0.0,
+    "pearson_correlation": 1.0
+  },
+  "helpfulness_agreement": {
+    "sample_size": 25,
+    "exact_agreement_pct": 96.0,
+    "within_1_pt_pct": 100.0,
+    "mean_absolute_difference": 0.04,
+    "pearson_correlation": 0.0
+  }
+}

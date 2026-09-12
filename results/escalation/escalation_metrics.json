@@ -1,0 +1,12 @@
+{
+  "total_evaluated": 200,
+  "true_positives_correct_escalation": 82,
+  "true_negatives_safe_autohandle": 20,
+  "false_positives_unnecessary_escalation": 96,
+  "false_negatives_dangerous_autohandle": 2,
+  "routing_accuracy": 0.51,
+  "autohandle_safety_rate": 0.9091,
+  "escalation_precision": 0.4607,
+  "escalation_recall": 0.9762,
+  "escalation_f1": 0.626
+}

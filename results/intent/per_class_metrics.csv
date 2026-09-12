@@ -1,0 +1,11 @@
+intent,precision,recall,f1_score,support
+account_access_security,0.95,0.95,0.95,20
+billing_payment_dispute,0.8,0.8,0.8,20
+complaint_poor_service,0.9,0.9,0.9,20
+feedback_praise_resolution,1.0,0.7,0.8235,20
+flight_travel_disruption,0.9091,1.0,0.9524,20
+order_delivery_issue,0.6667,0.8,0.7273,20
+product_inquiry_availability,0.95,0.95,0.95,20
+service_outage_connectivity,0.9524,1.0,0.9756,20
+subscription_cancellation_refund,0.8333,0.75,0.7895,20
+technical_hardware_software_bug,0.9048,0.95,0.9268,20

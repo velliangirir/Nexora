@@ -1,0 +1,212 @@
+id,tweet_id,brand,text,intent,notes,conversation_id,source_row_id
+1,2196,ChipotleTweets,Adult trick-or-treating for me is going to as many @ChipotleTweets as I can find for #Booritos,feedback_praise_resolution,,2196,0
+2,2268226,AmericanAir,"@AmericanAir you guys are normally solid but you've been an embassment tonight. If it was my first time flying with you, it would def be my last.",complaint_poor_service,,2268226,1
+3,2984967,DoorDash_Help,@DoorDash_Help I ordered and your payment system wasn't updated on a vendor side and I can't even use the credit you gave me because your ordering process requires a $.50 charge? What is happening???,billing_payment_dispute,,2984967,2
+4,1547818,GWRHelp,@GWRHelp - is the Heathrow Connect running from Hanwell to Paddington this morning?,flight_travel_disruption,,1547818,3
+5,789562,KFC_UKI_Help,"@120984 Ordered the #DoubleDown burger with no bacon and they gave me it WITH ONLY bacon! No cheese, sauce, nothing. #SuperDryBurger",order_delivery_issue,,789562,4
+6,2263159,AskPlayStation,"@AskPlayStation hey guys, I’m having issues with the party settings. Join a party and I can hear the guy in it but he can’t hear me. My mic is 100% working and we both have NAT 2 type. And after a few it says cant talk due to NAT type. Didn’t know if you could help thanks",technical_hardware_software_bug,,2263159,5
+7,9756,AsurionCares,Never use asurion mobile insurance again!! Complete scam!!,complaint_poor_service,,9756,6
+8,2986580,AppleSupport,@AppleSupport quickquestion. My iphone literally overnight went from “battery fine lasting most of day” to “battery from 100% to 1% in an hour” any idea how this is possible? 😕,technical_hardware_software_bug,,2986580,7
+9,2985914,Walmart,I had three people and the Walmart security guard take pictures with me today I love Halloween 😈😂,feedback_praise_resolution,,2985914,8
+10,2264397,LondonMidland,"@LondonMidland hey, Lon mid train from Eus last night was cancelled, I booked through virgin trains though so who do I contact to claim? Thx",flight_travel_disruption,,2264397,9
+11,2980453,marksandspencer,"@marksandspencer thanks to your super staff member Shona today at Oxford Street branch - really helpful, did a great job.",feedback_praise_resolution,,2980453,10
+12,2264672,TMobileHelp,@TMobileHelp still holding my breath wating 4 a Spvr to call me about this bill which is never correct -every month bill drama😣,billing_payment_dispute,,2264672,11
+13,791162,O2,Great when you send your iPhone off to sell in great condition and get it back with a smashed screen.... @O2 explain this!,complaint_poor_service,,791162,12
+14,2982294,GoDaddyHelp,"Just asking...is our company the only one that is constantly disappointed with @116068 email service? Every time we call with a outage, we're told there's nothing wrong. Please in the name of #customerservice train your people to provide it. https://t.co/5TDdjiiAFb",complaint_poor_service,,2982294,13
+15,3130,TMobileHelp,@115714 I can’t believe you treat your customers this way unacceptable RUDE disgusting @115911 buy our contract or whatever it is,complaint_poor_service,,3130,14
+16,1543528,airtel_care,@airtel_care @10152 ur ppl are sleeping .. i am waiting for revert,service_outage_connectivity,,1543528,15
+17,1543488,GoDaddyHelp,@40781 why your company cheating in India ? @118342 @164163 kindly take action on it @429430 @478146 @8210 https://t.co/JGgNp53s1Z,billing_payment_dispute,,1543488,16
+18,1550043,USCellularCares,Does anyone have a US Cellular iPhone they dont want or use?,product_inquiry_availability,,1550043,17
+19,786991,SCsupport,@scsupport https://t.co/IlOdIdGiAt Same happened to me is this a global issue,uncertain,,786991,18
+20,10600,AskAmex,"@AskAmex my offers have all but disappeared, including many w/end of year expiration dates that I had previously added to my card https://t.co/g9GuoJLYuh",subscription_cancellation_refund,,10600,19
+21,2985179,VirginAtlantic,"""Ladies and Gentleman this is your captain speaking"", tweet us with your airport questions as we're here to help.",flight_travel_disruption,,2985179,20
+22,2984539,GoDaddyHelp,"@GoDaddyHelp Been getting ""Connection queue full"" - don't know what that means.",,,2984539,21
+23,2983539,JackBox,Okay but honestly can you add extra cheese to @JackBox tacos?? 🌮 🌮,,,2983539,22
+24,2984043,asksalesforce,"@117070, we can't access Sales Force right now. It especially hurts when we have a reporting deadline tomorrow.",,,2984043,23
+25,2986031,idea_cares,@idea_cares I freaking know my pack expired and I have already recharged it. Can you freaking stop reminding me everyday? How long are you going to keep sending this? Until end of time? Absolutely terrible terrible terrible customer experience. @116590 https://t.co/3Ed4CYoJkg,,,2986031,24
+26,2984782,SpotifyCares,@117153 is your website down? Keep getting the ‘uh oh’ screen when trying to check profile and update payment details??!,,,2984782,25
+27,792534,BofA_Help,@116035 why is your transfer page always down?? AND there's no way to get ahold of any support from outside the US online.,,,792534,26
+28,2265227,ATVIAssist,@ATVIAssist please help I can not find a game https://t.co/FUCqQyx3zT,,,2265227,27
+29,1544383,AirbnbHelp,2/2 @115783 I've tried responding to the customer service agent I was speaking to and contacting you online multiple times with no response,,,1544383,28
+30,2270329,GreggsOfficial,"Gutted my local @GreggsOfficial was all out of festive bakes today 😢. Had to settle for a chicken bake instead, still good though !",,,2270329,29
+31,8208,SpotifyCares,@SpotifyCares hey my account which I pay for has become unmoored from my Facebook which I'm sure is what I'm registered with,,,8208,30
+32,5731,Postmates_Help,@Postmates_Help hi! I was charged 55 dollars for my order when it said it was 36 bucks on the postmates app? Will that change? Thank you!,,,5731,31
+33,1546860,NortonSupport,NortonがWiFiセキュリティとか出してたけど、あれで対応できんのかな？,,,1546860,32
+34,784483,sainsburys,"@sainsburys I know that a bakers dozen is 13, but a bakers half dozen shouldn't be 4...!? https://t.co/zP1wNfIVBa",,,784483,33
+35,784505,AdobeCare,Thank you @115777 for charginging me after cancelling months ago. Never even used the damn app,,,784505,34
+36,2987491,AskAmex,@AskAmex How to close my serve account and card account ? I was planning to close it after I moved the balance in my card.,,,2987491,35
+37,1545679,TacoBellTeam,"In a @118625 drive through line for 45 minutes. Could have made my own tacos by now. Line is blocked in, can't escape. I'm in Taco Hell",,,1545679,36
+38,2987220,DropboxSupport,@DropboxSupport my other uploads are fine just dropbox has been vslow the last two days. Any suggestions?,,,2987220,37
+39,791907,ArgosHelpers,"This #WinWednesday get a headstart on #ChristmasShopping by winning a K’NEX Thrill Rides Web Weaver, out now @116245! RT+Foll by 19.10 https://t.co/6oxfYylono",,,791907,38
+40,789362,AmericanAir,"@AmericanAir, in last 2wks was delayed a day at ZRH, then hour wait for gate at DFW, now delayed at PBI for late fly attend. What gives?",,,789362,39
+41,2268153,GWRHelp,"Parked my bike at #Blackwater station today. Gone when returned, in full view of CCTV @GWRHelp https://t.co/UX3ar2yebr",,,2268153,40
+42,1545507,British_Airways,@British_Airways Please sort out your crappy lounge in Manchester. Invest some love in to the tired space...,,,1545507,41
+43,2270247,Ask_Spectrum,Had a bit of @117890 internet outage for a bit...,,,2270247,42
+44,2984711,IHGService,@118916 big fail at booking family room using points - what is the point of your app,,,2984711,43
+45,790985,HiltonHelp,@161609 do disappointed that yet again Hilton GardenInn Brussels will not let you choose room on the app !! Pointless offering it !,,,790985,44
+46,784493,MTNC_Care,Le Ya Mo c'est la Life ! #MtnYaMo *220# @124257 @307220 🔥 https://t.co/3AO2MHxU7Y,,,784493,45
+47,2984944,AskTarget,@116062 there seems to be a problem with my online order...🤦🏼‍♀️ https://t.co/r0QYYJr0Fe,,,2984944,46
+48,1544920,idea_cares,"@idea_cares.It's very irritating dat I am getting multiple calls for Adhaar updation, which is already updated. Stop dis nonsense now or 1/2",,,1544920,47
+49,2486,AsurionCares,"@AsurionCares just got off the phone w/ a rep, Austin, can I just say that was one of the best customer service experiences I’ve ever had!",,,2486,48
+50,1601,XboxSupport,@XboxSupport who would I message for backwards compatible game suggestions 2 great games have sat on the fourms since 2015 https://t.co/Hv4lYsUelZ,,,1601,49
+51,2985337,sizehelpteam,@sizehelpteam please contact me about my order that still hasn’t been shipped. Thank you 🤝,,,2985337,50
+52,2984229,sprintcare,@115714 why does my account say I can add a line but when I try to it says its hit a bump?? I️ just want the iPhone X!!!,,,2984229,51
+53,2267633,CoxHelp,@CoxHelp Internet down in 92154. Rebooting doesn't help? Reported yet.,,,2267633,52
+54,2265334,TfL,@467614 @TfL While the Bakerloo line is off why are you not operating more 6 busses (which runs most of the tube route) as both my journey to and from work has been almost unbearable with the overcrowding.,,,2265334,53
+55,6447,AskPapaJohns,Yo Papa @116076 you're seriously charging $0.25 per packet of crushed red pepper and parm cheese? Refund my money.,,,6447,54
+56,2482,USCellularCares,@USCellularCares my phone warranty had expired one day,,,2482,55
+57,1550664,VirginTrains,@VirginTrains this is long. https://t.co/GoJLmxYDJw,,,1550664,56
+58,1557,DropboxSupport,We’re excited to announce the University of Cambridge is using Dropbox Business to power collaboration. https://t.co/SBIyDSyCDK https://t.co/3f69m3x5gF,,,1557,57
+59,787798,AzureSupport,@azuresupport #azhelp: I receive this message everytime I use AzCopy to copy between subscriptions. The storage keys/URIs are correct! (2/2),,,787798,58
+60,784940,AWSSupport,"@123644 I can't post to the forums as a few user, even though you already confirmed my identity with a credit card transaction? so sad.",,,784940,59
+61,765,AppleSupport,After update #ios1103 no spotify on my lock screen?@AppleSupport,,,765,60
+62,1544439,GooglePlayMusic,@GooglePlayMusic yo why is my music buffering on gpm https://t.co/u1Q8aQyIFU,,,1544439,61
+63,788317,AirbnbHelp,Hi @AirbnbHelp what do I do? I'm locked out of my account and 2step verification requires a phone number I don't remember? Any other way in?,,,788317,62
+64,2271035,ArgosHelpers,@116245 You have so few of this floor lamp available 307/1029 and it's been this way for several weeks. None/only 1 available in all the stores near me but I'd like to get a matching pair. How can you help?,,,2271035,63
+65,2985995,CenturyLinkHelp,Does @116072 suck for everybody or is it just me. #slowinternet https://t.co/U43FUOvlKq,,,2985995,64
+66,1547649,AskTarget,"Ok, I looove everything in the #ANewDay line at @116062 but does anyone else feel like sizing runs super small?",,,1547649,65
+67,2982005,comcastcares,@comcastcares when your internet goes out and you have a lot of stuff to do. Thanks a lot.,,,2982005,66
+68,787852,TfL,@TfL my credit card contactless wouldn't work at one of your stations. How can I get my payment corrected?,,,787852,67
+69,2980704,ChaseSupport,@chasesupport https://t.co/7ZGZA2fXOV has been increasingly flaky as of late. https://t.co/oCinlQFAdJ,,,2980704,68
+70,2983521,JackBox,@JackBox will you strip for my friend for his birthday? :),,,2983521,69
+71,2980607,Kimpton,The new aertsonhotel in #Nashville is beautiful. I love kimpton properties. So glad there is one… https://t.co/l5gBDEES8E,,,2980607,70
+72,1549791,MicrosoftHelps,"@MicrosoftHelps hey, I need some help please",,,1549791,71
+73,786962,Morrisons,@Morrisons I have been to both the wallasey store and west Kirby and neither have the #VolcanicVindaloo in. When will they be next in?? 😭,,,786962,72
+74,2796,Delta,Thanks to the @Delta gate agent at D7 at @116373 for being so kind. This airport is great! Get why it’s voted tops so often.,,,2796,73
+75,2983058,AWSSupport,"@AWSSupport I have some billing issue, could not charge on several credit card. Any contact I can reach?",,,2983058,74
+76,2983079,PandoraSupport,Is there a reason your app crashes every 15 minutes? @129941,,,2983079,75
+77,787003,SCsupport,"@SCsupport see issue many of us are having regarding change to embed code, it is broken on your site too https://t.co/F85qW6vK74",,,787003,76
+78,791245,ATT,"According to @ATT 10mbps is great for gaming, but even with an Ethernet cord, I still experience about 2-4mbps. Someone explain that to me.",,,791245,77
+79,1546949,DellCares,@DellCares My insprion 7560 is having performance issue(disk usage 100%)& it's not getting permanent solution feeling bad for choosing Dell.,,,1546949,78
+80,792063,XboxSupport,"@XboxSupport https://t.co/XohqtgquTKPlease note, the way it's worded, it's not clear to go to Backup & Transfer to turn on 4k updates, https://t.co/iEP0gBWtNT",,,792063,79
+81,5743,asksalesforce,"This just in: Marketing Cloud is so difficult to use, i want to flip tables.
+
+Nothing is intuitive. NOTHING.",,,5743,80
+82,2267417,AdobeCare,"Can someone please come up with a professional alternative to @115777 #Illustrator? It crashes constantly, disqualifying it as an industry level application.",,,2267417,81
+83,2270234,Walmart,I was just walking out of Walmart and put away all of an elderly stranger's groceries for her. She was very happy and now I feel happy. :),,,2270234,82
+84,788087,VirginTrains,On way to Landan Tahn !! @VirginTrains @34993 @34994 #theirmortalremains,,,788087,83
+85,11513,TwitterSupport,@TwitterSupport help me!!!!! ASAP Pleaseeee,,,11513,84
+86,2270549,AskRobinhood,@122481 @AskRobinhood i emailed u guys regarding the time its taken to verify my application several times but have gotten no reply:((,,,2270549,85
+87,1545677,TacoBellTeam,Hey @118625 I ordered some food and I got a completely different order.. like nothing that I order was in the bag. 😂,,,1545677,86
+88,1551648,CenturyLinkHelp,@CenturyLinkHelp just moved into a new home in a new neighborhood. Fiber service has been less than consistent. Download speeds unacceptable https://t.co/Gdm8l2uGnP,,,1551648,87
+89,2267243,AirAsiaSupport,@AirAsiaSupport setelah isi e form bagaimaan cara melihat berapa lama proses pengembaliannya??,,,2267243,88
+90,2987541,UPSHelp,"So mad @115817 can't manage to deliver packages on time, so the kids don't even wanna trick or treat now because they don't have costumes. Ffs.",,,2987541,89
+91,2268959,sainsburys,@sainsburys what can we do about this pizza disaster? It was your own make margherita stonebaked £3.00. Bought from Halifax yesterday. 🍕🍩#pizza #donut #pizzadonut #ovencleanerneeded https://t.co/4agFNOfeaQ,,,2268959,90
+92,2981824,VirginAmerica,plz tell me the Christmas fares are a joke @VirginAmerica. you were my #1 but you really suck rn and it hurts :/,,,2981824,91
+93,2269052,AldiUK,"@AldiUK Lovely tasteless ham and leek make in minutes ""pasta and sauce"" packet, with no leek or ham in the pasta mix. Aldi sort it out?!",,,2269052,92
+94,1548476,VerizonSupport,. @115725 you tried to fix my tv and made my internet crawl in the process,,,1548476,93
+95,2266777,sizehelpteam,@sizehelpteam hi pls help and my order no is 83940591 it seem it still in order placed.,,,2266777,94
+96,2267977,O2,@o2 I wish there was a way to track my iPhone X pre-order 😫,,,2267977,95
+97,2264511,TfL,"@TfL Time to start putting No alcohol stickers on tube trains! Late eve people pour out of tube with bottles, cans, mayhem. Pls monitor! https://t.co/zzFoJUerXw",,,2264511,96
+98,1550509,AskTarget,@116062 since when do y’all sell low quality products that break down in less than a year? #westinghouseTimer,,,1550509,97
+99,1545175,HotelTonightCX,@148884 do not book with this company. Absolutely the worst! Deleting the app and telling all my friends to dump them. Horrible!,,,1545175,98
+100,1548096,Delta,@Delta what is the name of the word game on the in-flight panel?,,,1548096,99
+101,791999,YahooCare,@YahooCare is there any word on temp error 14? I know there was no ETA but I really need access. Can I have a number to call for help?,,,791999,100
+102,792637,AskLyft,@115879 yesterday I was quoted a price of $3 but it turned out being $9 and it was a shared ride. And the it was a 3.7 mile distance🤔,,,792637,101
+103,787474,GreggsOfficial,"@GreggsOfficial 
+
+Thank you for making my morning again Greggs, life savours for a quick breakfast! https://t.co/6rkIdtJU7A",,,787474,102
+104,2268346,UPSHelp,@115817 what do I do if a package is suppose to be delivered after I move 🤔,,,2268346,103
+105,1550214,Postmates_Help,never using @116057 again. They never delivered and now i’m starving! THANKS ALOT,,,1550214,104
+106,786241,CoxHelp,"@CoxHelp 1:48 am tech support says “there is an outage in your area. Service expd to be restored by 6am.”
+
+Good thing I still have dialup.",,,786241,105
+107,2269644,ATT,"Order a $800 phone,doesn't even ship for a week. Nice job @ATT #helloTmobile #horriblebuisness",,,2269644,106
+108,3678,NeweggService,@116593 @NeweggService @239 I want to order this item https://t.co/jd4XZL76Ga but am getting errors in checkout process,,,3678,107
+109,791875,BofA_Help,@ @116035 visa is fucking dumber than dirt.,,,791875,108
+110,3560,ArgosHelpers,@ArgosHelpers please help my order was supposed to come today and it's not arrived! Web chat are no help at all!!!!,,,3560,109
+111,790376,AskeBay,@115937 I have a 5 day order when it is delivered,,,790376,110
+112,2986297,AirAsiaSupport,@AirAsiaSupport Is there a way to know if my debit card was rejected by the booking system. I have tried to make a reservation 2 days ago.,,,2986297,111
+113,2267294,GloCare,good for nothing @117627 n @GloCare https://t.co/HSEPBYUR5v,,,2267294,112
+114,1333,ChipotleTweets,@ChipotleTweets I didn't know my boy ordered half a bowl... #WheresTheRice? https://t.co/Qmqiy3nYIg,,,1333,113
+115,2266478,AskeBay,".@AskeBay 2/2 They gave me their contact details, asked for mine & tricked me into adding a buy it now which I was charged for",,,2266478,114
+116,2987478,Ask_WellsFargo,Fuck you wells fargo! I’ve been a loyal customer since 2012 and this is how y’all do me? Fuck yall I’m taking my business to my shoe box from now on!,,,2987478,115
+117,2980728,DunkinDonuts,so are these just coffee grinds or are y’all trying to kill me @DunkinDonuts? Drove 30 mins for this thing due to power outages... https://t.co/GrgQp8K1vC,,,2980728,116
+118,1551515,SouthwestAir,Any updates on your Hawaiian service @SouthwestAir,,,1551515,117
+119,2268234,AmericanAir,"Y’all. Fair warning, even when you have Plat. Pro status @AmericanAir will STILL charge you $1400 to cancel international flights #garbage",,,2268234,118
+120,6477,Kimpton,Thanks @Kimpton ! https://t.co/ylSiLp2BFH,,,6477,119
+121,2266959,OPPOCareIN,We now present to you the winners of tonight Sakshi & Ishaan with our gorgeous judge @88970. #OPPOTimesFreshFace @131023 @88971 https://t.co/mvmiBvzRKj,,,2266959,120
+122,2270593,MOO,@Moo are the BEST! Thank you Sigrun from support ♥️ #BestCompanyEver #ILoveMoo,,,2270593,121
+123,787198,OPPOCareIN,@OPPOCareIN Will OPPO 37 be the latest to the ColoresOS Virus 3.0?,,,787198,122
+124,792585,NikeSupport,"@NikeSupport my coach do not record my distance and speed, what should I do?",,,792585,123
+125,3682,NeweggService,"@81 Just got off the phone with a Rep @116593, and we couldn't get a package shipped to my closest location (NJ) for pick-up",,,3682,124
+126,787575,AmazonHelp,"the @115821 support guy said he was going to put me on the phone with a specialist, but I haven't recieved a call and it's been 10+ minutes.",,,787575,125
+127,2983493,AskRBC,@AskRBC am I able to dispute bank fees that were erroneously applied to my account in 2016? What's the process?,,,2983493,126
+128,788942,GooglePlayMusic,@308140 PLEASE PLEASE PLEASE get super fast on getting bixby voice working with Samsung music. Google play is awful and won't work,,,788942,127
+129,2268404,marksandspencer,@marksandspencer my dad had a £5 off food offer on Sparks but it wasn’t loaded on the card - was just told at the till it couldn’t be done there.... not too helpful!,,,2268404,128
+130,1549505,PearsonSupport,I swear I have had the worst couple of weeks waiting on my edtpa grade! I haven’t slept well and I keep having nightmares about failing! Thanks @4166 for scaring me for life!,,,1549505,129
+131,2984716,IHGService,"Hello @117164, did you notice that this is 2017? Not having sockets next to your bed in the City Center hotel in Munich feels like being transported back to the 90s...",,,2984716,130
+132,2984937,CenturyLinkHelp,"For this Christmas, I'd like an ISP other than @116072 to come to town https://t.co/Bf1t0iHpxD",,,2984937,131
+133,2983077,PandoraSupport,Hey @129941 is there a Halloween Station ?,,,2983077,132
+134,2983054,KFC_UKI_Help,@120984 bought a party bucket got home and mini fillets are missing and this does NOT look like popcorn chicken to me. Awful. https://t.co/M79PIXJ4tc,,,2983054,133
+135,2985171,ask_progressive,Hey @131610 I just saw someone from your company texting while driving. If they get in a crash are they covered?,,,2985171,134
+136,2983955,SouthwestAir,"Had the best experience on @SouthwestAir flight 5721 from DCA to Love Field. Fun passengers, great crew!",,,2983955,135
+137,59,VerizonSupport,@115722 is the worst ISP I’ve ever had,,,59,136
+138,788170,AWSSupport,@123644 Is it Elexa or Alexa? https://t.co/8is45t4dEt,,,788170,137
+139,1678,AskPapaJohns,Aye @116076 why y’all don’t deliver to Xavier University of Louisiana??? What’s beef??,,,1678,138
+140,2980163,ATT,@ATT WHEN U GUYS GOING TO BRING GIG INTERNET TO MY AREA IN OHIO PLS ILL PAY EXTRA FOR IT ILL PAY 1000 A MONTH PLS,,,2980163,139
+141,1462,AskPlayStation,@AskPlayStation My account is telling me to reset my password but i dont know my date of birth but i know my password for the account. help,,,1462,140
+142,792463,ATVIAssist,@122172 any updates for when we will be able to download or if use are close to fixing the insure?,,,792463,141
+143,2980224,Kimpton,Crazy view from our suit here at the #Shorebreak #Hotel in #HuntingtonBeach #California @Kimpton #travel #Beautiful #Relaxation https://t.co/LB7RmOqyio,,,2980224,142
+144,1545901,AskPlayStation,"@AskPlayStation YALL ARE TRYING TO BREAK MY DAMN PS4 IVE BEEN ASKED ALL DAY, USE AN USB TO UPDATE MY SOFTWARE FINALLY DO IT AND DOESNT WORK",,,1545901,143
+145,2298,MicrosoftHelps,I don't recommend upgrading to the Windows 10 Fall Creators update. delay it as much as possible! Start menu quit working after the update.,,,2298,144
+146,2984758,HPSupport,@HPSupport [why my screen losses brightness every so often] #HPcpAUS,,,2984758,145
+147,2985781,AlaskaAir,Another reason for me to dislike @AlaskaAir. https://t.co/4Bcthtp38E,,,2985781,146
+148,2984117,AldiUK,"#GBBOFinal Has much has I love bread,cake,pastries you just can’t beat bread&butter pudding #aldi style @AldiUK with #cream ❤️ https://t.co/pnyi0F0qOV",,,2984117,147
+149,2488,AsurionCares,"I bought @172 #LUMIX & sensor crapped w/in 6 months. It's been ""in repair"" 6 wks. At this point, I say go another brand. cc/ @116297",,,2488,148
+150,2980218,NortonSupport,@132897 help!! Trying to install on anothe device and email says I am@covered 10 devices till May 18 yet it says I need to re do subscription as I’m out ....,,,2980218,149
+151,2984363,Ask_WellsFargo,@116827 beyond ridiculous 40 minute process to close deceased family member’s accounts for a total of $00.25 cents. https://t.co/UYck9TS5Tg,,,2984363,150
+152,1550570,AzureSupport,@AzureSupport does WebJobs support .NET 4.7 yet?,,,1550570,151
+153,2982356,NortonSupport,"ノートン先生が教えてくれたのでfirefox上げます！
+ノートン先生すごい親切だなぁ
+これでもう少し軽くなれば最高なのに😬😬😬",,,2982356,152
+154,2270116,BofA_Help,I am in love with these 6 @BofA_Help fee’s of $210.00 you would kinda think that someone would call and try to help from your bank but Nope!,,,2270116,153
+155,9759,AsurionCares,"Shoutout to apple. Had my screen replaced about a month thru asurion, it got all messed up after I cracked it again...",,,9759,154
+156,9391,British_Airways,@British_Airways Need to change my seat on LHR-CPH for tomorrow but have an AA ticket. How can I do that?,,,9391,155
+157,784935,nationalrailenq,@nationalrailenq are there still no trains between Gunnersbury and Richmond ?,,,784935,156
+158,1544000,AlaskaAir,@AlaskaAir 30 minutes and counting waiting for a gate….any stock price above $0 is too high for this airline,,,1544000,157
+159,7173,TMobileHelp,if i would have started a youtube channel years ago Maybe apple would’ve sent over an iphoneX instead of me fighing @115911 over zerodown,,,7173,158
+160,1543474,NeweggService,@5475 @178026 @116593 BTW you three are dueling it out for worst cust service in the world IMO just FYI. you make @116136 look good!,,,1543474,159
+161,2982138,hulu_support,"Thanks, @115940, for adding that “wake up the kids” noise at app start up. Works perfectly!",,,2982138,160
+162,10404,sprintcare,"Mad at Sprint, daughter had her phone stolen and we are getting the rum around trying to get her a new one. #Sprint #frustrated",,,10404,161
+163,2985892,Ask_Spectrum,@Ask_Spectrum zip code 10031 CONSTANT OUTAGES. Should I just expect random hour long outages as part of my plan?,,,2985892,162
+164,2263446,JetBlue,@JetBlue Tried to get on a early flight to jfk. I could buy a seat online but JetBlue will not let change to it,,,2263446,163
+165,2985335,sizehelpteam,"@sizehelpteam hi, I want ask about my order, can I DM",,,2985335,164
+166,601,YahooCare,"@115812 I cant Connect my Interactive Broker ( Canada) with yahoo finance App in ios 11, Any suggestions.. ??",,,601,165
+167,2269393,Tesco,Bought these two quite expensive pots from @Tesco and they are within date. Found them popped open this morning without theseal being broken. They have clearly not been packaged properly and gone off! Will be bringing them back and never repurchasing! https://t.co/LWDgZBcSMD,,,2269393,166
+168,786095,DellCares,Still stuggling with Dell. Unbelievable. Took more than 2 days to verify the warranty? Aren't we living in an electronic world?! https://t.co/tsx3FVnlNJ,,,786095,167
+169,1549881,ChaseSupport,@116016 should make an option to open a new business banking account online so you can get it done quickly and efficiently.,,,1549881,168
+170,2263939,Delta,"@Delta WHY NOT GIVE TRANSPORTATION OPTIONS WHEN A FLIGHT IS 1HR+ DELAYED, WHEN THE DESTINATION IS ONLY 2HRS AWAY! YOU NEED TO CHECK YOUR SERVICE!",,,2263939,169
+171,205,MicrosoftHelps,"@MicrosoftHelps hi, having trouble making purchases on Xbox one store for fifa points, can you help?",,,205,170
+172,784933,nationalrailenq,@nationalrailenq How come I'm meant to be able to use my 16-25 rail card on off peak tickets but not until an hour after off peak starts?,,,784933,171
+173,2985347,Ask_Spectrum,@1625 No Internet. Limited HD channels. Bad picture. Help.,,,2985347,172
+174,785964,comcastcares,It looks like when @116136 installed my neighbors' cable they just pulled mine out... Cables just dangling outside of the box. Lol?,,,785964,173
+175,791887,McDonalds,Got a firm fist bump for whoever brings me some McDonald’s breakfast 🤜🤛,,,791887,174
+176,2984023,asksalesforce,"#askforce @asksalesforce I'm unable to get logged in to @120083. After entering my SF credentials, I'm taken back to https://t.co/VO5kv1ntF3 but not logged in. Tried incognito in chrome and in Internet Explorer. 😢",,,2984023,175
+177,2987868,AskeBay,"Helloo @AskeBay i paid for this item iphone usb charge and marked as a shipped but now item is removed, what's going on ? ☹️ https://t.co/t49HD4KTkY",,,2987868,176
+178,2266917,HiltonHelp,@HiltonHelp What is the Diamond breakfast at the @450477 The London NYC? @89225,,,2266917,177
+179,2980723,DunkinDonuts,@DunkinDonuts scammed me out of my 89 cent coffee yesterday. Y’all know damn well the Pats won. Why did I pay 3 dollars for a damn coffee,,,2980723,178
+180,2268060,GWRHelp,@GWRHelp and to top it off no water to wash hands after toilet still £70 Absolute joke,,,2268060,179
+181,790689,ask_progressive,"@131610 I bought a new motorcycle, and got a new insurance policy elsewhere. How do I can my policy with you guys?",,,790689,180
+182,6949,BoostCare,Is anyone else having trouble with their Boost Mobile network or is it just me?,,,6949,181
+183,2263672,hulu_support,Getting an issue when trying to watch @115940 on my Nintendo Switch. It's saying it can't find my physical location. Can't find anything online about it. @hulu_support @125066?,,,2263672,182
+184,2983083,PandoraSupport,Country? On my KANYE station?? How fucking dare you @129941,,,2983083,183
+185,4563,nationalrailenq,"@nationalrailenq hi all, what’s the score with Liverpool Lime Street on Sunday, is it open or a bus ride from elsewhere. Thanks.",,,4563,184
+186,2985975,VMUcare,"@VMUcare I'd like to confirm my account number, please.",,,2985975,185
+187,2267283,GloCare,"@GloCare Here in idiroko border we always experience network shutdown for three days in every two weeks, why I heard dos operators here do sell fuel meant to power the mast. Pls do something fast cos its killing glo here in idk o. I can't imagine three goods days without network",,,2267283,186
+188,1545686,TacoBellTeam,What is this?! I need answers. @118625 https://t.co/nAziR7cWC3,,,1545686,187
+189,2271031,AskPapaJohns,@116076 soooooooo 🤔 https://t.co/X2LqW9irEx,,,2271031,188
+190,9593,AskPlayStation,@AskPlayStation hi I bought psn off the Ps store for £49.99 which come with 1050 FIFA points but I haven't received the FIFA points?,,,9593,189
+191,2268819,Safaricom_Care,@Safaricom_Care no network at maua. what's happening?,,,2268819,190
+192,2983245,idea_cares,"@118471 Dear Mr Birla, is looting Indian consumers is new policy if IdeaCellular. Activating services without consumers consent and then denying refund as well. ""Chori aur Seenajori"". Please confirm. 
+SR number is 1-157287790251",,,2983245,191
+193,787481,AskVirginMoney,@122467 Any chance you guys are releasing an app soon?,,,787481,192
+194,2984955,DoorDash_Help,First ever awful experience with @116584 🙂,,,2984955,193
+195,2982352,NortonSupport,我が家のノートン先生、そろそろエクシールをウイルス認定して勝手に削除するのやめてくれませんかね……。あと△のゲームも親の仇みたいに3つまとめて認定とかも勘弁してください,,,2982352,194
+196,2987856,AskLyft,I was just dying to get home but the other people in my Lyft ride were picking up drugs so I had to wait forever 🙂🙂🙂 just my luck lmfao,,,2987856,195
+197,2980866,AskPayPal,"Using @115993 on mobile is such broken and frustrating experience.
+I ran into several major issues after just a few minutes if usage. Anyone testing at PayPal?
+#Crypto #cryptocurrencies #bitcoin",,,2980866,196
+198,2270547,AskRobinhood,@AskRobinhood Do I get a pro-rated refund if my cancel Robinhood Gold with 20 days left? Thanks!,,,2270547,197
+199,389,Morrisons,"@Morrisons 3 for £6, unless one is reduced (hidden label on the side!) then it’s 3 for £6.14. Don’t care about the 14p but feel ripped off! https://t.co/jG0fTncMDr",,,389,198
+200,2983489,AskRBC,"@AskRBC i’ve been charged a total of 12$ for 2 interac e-transfers made to another rbc client. i’ve never been charged for this before, why am I now and why is it so much?",,,2983489,199

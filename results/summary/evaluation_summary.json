@@ -1,0 +1,62 @@
+{
+  "evaluation_dataset": {
+    "golden_set_path": "E:\\hiver_sde_intern_assignment\\evaluation\\golden_set.csv",
+    "total_examples": 200,
+    "number_of_intents": 10,
+    "balanced_support_per_intent": 20
+  },
+  "intent_classification": {
+    "accuracy": 0.88,
+    "macro_precision": 0.8866,
+    "macro_recall": 0.88,
+    "macro_f1": 0.8795,
+    "weighted_f1": 0.8795,
+    "baseline_majority_accuracy": 0.1,
+    "baseline_simple_ml_accuracy": 0.88
+  },
+  "reply_quality": {
+    "mean_relevance": 4.93,
+    "mean_correctness": 5.0,
+    "mean_groundedness": 4.955,
+    "mean_helpfulness": 5.0,
+    "mean_safety": 5.0,
+    "mean_overall_score": 4.977,
+    "safety_violation_count": 0,
+    "total_replies_evaluated": 200
+  },
+  "human_agreement": {
+    "overall_score_agreement": {
+      "sample_size": 25,
+      "exact_agreement_pct": 96.0,
+      "within_1_pt_pct": 100.0,
+      "mean_absolute_difference": 0.008,
+      "pearson_correlation": 0.8908
+    },
+    "relevance_agreement": {
+      "sample_size": 25,
+      "exact_agreement_pct": 100.0,
+      "within_1_pt_pct": 100.0,
+      "mean_absolute_difference": 0.0,
+      "pearson_correlation": 1.0
+    },
+    "helpfulness_agreement": {
+      "sample_size": 25,
+      "exact_agreement_pct": 96.0,
+      "within_1_pt_pct": 100.0,
+      "mean_absolute_difference": 0.04,
+      "pearson_correlation": 0.0
+    }
+  },
+  "escalation_safety": {
+    "total_evaluated": 200,
+    "true_positives_correct_escalation": 82,
+    "true_negatives_safe_autohandle": 20,
+    "false_positives_unnecessary_escalation": 96,
+    "false_negatives_dangerous_autohandle": 2,
+    "routing_accuracy": 0.51,
+    "autohandle_safety_rate": 0.9091,
+    "escalation_precision": 0.4607,
+    "escalation_recall": 0.9762,
+    "escalation_f1": 0.626
+  }
+}

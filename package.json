@@ -1,0 +1,24 @@
+{
+  "name": "hiver-ai-support-agent",
+  "version": "1.0.0",
+  "description": "AI Customer Support Agent using Customer Support on Twitter dataset (Hiver SDE Assignment)",
+  "scripts": {
+    "dev": "py -3 scripts/check_dataset.py",
+    "test": "py -3 -m pytest tests/",
+    "check-data": "py -3 scripts/check_dataset.py",
+    "analyze-data": "py -3 scripts/analyze_dataset.py",
+    "preprocess": "py -3 src/preprocessing.py",
+    "build-golden": "py -3 scripts/build_golden_set.py",
+    "train-baselines": "py -3 scripts/train_evaluate_baselines.py",
+    "agent": "py -3 scripts/run_agent.py",
+    "evaluate": "py -3 scripts/run_full_evaluation.py"
+  },
+  "keywords": [
+    "customer-support",
+    "nlp",
+    "llm",
+    "hiver"
+  ],
+  "author": "",
+  "license": "ISC"
+}
