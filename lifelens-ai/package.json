@@ -1,0 +1,22 @@
+{
+  "name": "lifelens-ai-monorepo",
+  "version": "1.0.0",
+  "description": "Futlens AI – AI-Powered What-If Decision Simulator & Adaptive Decision Support System",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "decision-support",
+    "what-if-simulator",
+    "explainable-ai",
+    "lifelens-ai"
+  ],
+  "author": "",
+  "license": "MIT"
+}

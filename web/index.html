@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Customer Support Agent | Evaluation & Live Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Navigation Header -->
+    <header class="app-header">
+        <div class="logo-group">
+            <div class="logo-icon">✨</div>
+            <div>
+                <h1>AI Customer Support Agent</h1>
+                <p class="subtitle">Twitter Support Dialogue Intelligence • Hiver SDE Benchmark Studio</p>
+            </div>
+        </div>
+        <div class="header-status">
+            <span class="status-dot online"></span>
+            <span class="status-text">Backend Active (Port 8000)</span>
+        </div>
+    </header>
+
+    <!-- App Navigation Tabs -->
+    <nav class="app-nav">
+        <button class="nav-tab active" data-tab="simulator">
+            <span class="tab-icon">⚡</span> Live Agent Simulator
+        </button>
+        <button class="nav-tab" data-tab="dashboard">
+            <span class="tab-icon">📊</span> Evaluation Dashboard
+        </button>
+        <button class="nav-tab" data-tab="golden-set">
+            <span class="tab-icon">🔍</span> Golden Set Explorer
+        </button>
+        <button class="nav-tab" data-tab="failures">
+            <span class="tab-icon">⚠️</span> Failure Analysis Studio
+        </button>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="app-content">
+
+        <!-- TAB 1: LIVE AGENT SIMULATOR -->
+        <section id="tab-simulator" class="tab-content active">
+            <div class="simulator-layout">
+                <!-- Left Input Panel -->
+                <div class="panel input-panel">
+                    <div class="panel-header">
+                        <h2>📥 Incoming Customer Message</h2>
+                        <span class="badge badge-primary">Interactive Playground</span>
+                    </div>
+
+                    <div class="presets-container">
+                        <label class="input-label">Quick Test Presets:</label>
+                        <div class="preset-buttons">
+                            <button class="preset-btn" data-text="My flight was cancelled and I need urgent rebooking assistance! @Delta" data-brand="Delta">✈️ Flight Cancelled</button>
+                            <button class="preset-btn" data-text="Someone compromised my account and changed my password! @AppleSupport" data-brand="AppleSupport">🔒 Account Hack</button>
+                            <button class="preset-btn" data-text="I was charged twice on my credit card for order #49281 @DoorDash_Help" data-brand="DoorDash_Help">💳 Double Billed</button>
+                            <button class="preset-btn" data-text="Thank you Amazon for waiting until the delivery date to tell us the order is cancelled! Great job! @AmazonHelp" data-brand="AmazonHelp">😏 Bitter Sarcasm</button>
+                            <button class="preset-btn" data-text="What are your holiday store opening hours for Christmas Eve? @Walmart" data-brand="Walmart">🛍️ Store Hours</button>
+                        </div>
+                    </div>
+
+                    <form id="agent-form" class="agent-form">
+                        <div class="form-group">
+                            <label for="message-input" class="input-label">Customer Query Text:</label>
+                            <textarea id="message-input" placeholder="Type or select a customer tweet (e.g. My package has not arrived @AmazonHelp)..." rows="4" required></textarea>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group flex-1">
+                                <label for="brand-input" class="input-label">Brand Handle (Optional):</label>
+                                <input type="text" id="brand-input" placeholder="e.g. Delta, AppleSupport, AmazonHelp">
+                            </div>
+                            <button type="submit" id="submit-btn" class="btn btn-action">
+                                <span>Run Agent Pipeline</span>
+                                <span class="spinner" id="btn-spinner" style="display: none;"></span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Right Pipeline Stage Execution Results -->
+                <div class="panel output-panel" id="output-panel">
+                    <div class="panel-header">
+                        <h2>🔄 4-Stage Agent Execution Pipeline</h2>
+                        <span class="badge" id="pipeline-status-badge">Awaiting Input</span>
+                    </div>
+
+                    <div class="empty-state" id="empty-state">
+                        <div class="empty-icon">🤖</div>
+                        <h3>Enter a customer inquiry to test the agent</h3>
+                        <p>The system will execute Intent Classification ➔ Historical Retrieval ➔ Escalation Evaluation ➔ Grounded Reply Generation.</p>
+                    </div>
+
+                    <div class="pipeline-results" id="pipeline-results" style="display: none;">
+                        
+                        <!-- STAGE 1: INTENT CLASSIFIER -->
+                        <div class="stage-card">
+                            <div class="stage-header">
+                                <span class="stage-num">1</span>
+                                <div class="stage-title">
+                                    <h3>Intent Classification</h3>
+                                    <p>TF-IDF + Logistic Regression Calibrated Probability</p>
+                                </div>
+                                <span class="intent-pill" id="res-intent">flight_travel_disruption</span>
+                            </div>
+                            <div class="stage-body">
+                                <div class="metric-progress-group">
+                                    <div class="metric-label-row">
+                                        <span>Top Intent Confidence:</span>
+                                        <strong id="res-confidence-text">94.2%</strong>
+                                    </div>
+                                    <div class="progress-bar-bg">
+                                        <div class="progress-bar-fill" id="res-confidence-bar" style="width: 0%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- STAGE 2: HISTORICAL RETRIEVAL -->
+                        <div class="stage-card">
+                            <div class="stage-header">
+                                <span class="stage-num">2</span>
+                                <div class="stage-title">
+                                    <h3>Historical Resolution Grounding</h3>
+                                    <p>In-Memory Cosine Similarity Retrieval over 8,918 Non-Golden Dialogues</p>
+                                </div>
+                                <span class="badge badge-info" id="res-similarity-badge">Top Cosine: 0.00</span>
+                            </div>
+                            <div class="stage-body" id="res-retrieval-list">
+                                <!-- Retrieved examples will be populated here -->
+                            </div>
+                        </div>
+
+                        <!-- STAGE 3: ESCALATION & SAFETY ROUTER -->
+                        <div class="stage-card">
+                            <div class="stage-header">
+                                <span class="stage-num">3</span>
+                                <div class="stage-title">
+                                    <h3>Escalation & Safety Router</h3>
+                                    <p>Multi-Factor Policy: Confidence, Grounding, Risk, & Legal Keywords</p>
+                                </div>
+                                <span class="decision-badge" id="res-decision-badge">AUTO_HANDLE</span>
+                            </div>
+                            <div class="stage-body">
+                                <div class="escalation-reason-box" id="res-escalation-reason">
+                                    Reason details will appear here.
+                                </div>
+                                <div class="flags-tags" id="res-flags">
+                                    <!-- Risk flags -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- STAGE 4: GROUNDED REPLY GENERATION -->
+                        <div class="stage-card reply-stage">
+                            <div class="stage-header">
+                                <span class="stage-num">4</span>
+                                <div class="stage-title">
+                                    <h3>Synthesized Grounded Reply</h3>
+                                    <p>Zero-Hallucination Brand-Aligned Response</p>
+                                </div>
+                                <button class="btn btn-secondary btn-sm" id="copy-reply-btn">📋 Copy Reply</button>
+                            </div>
+                            <div class="stage-body">
+                                <div class="reply-text-box" id="res-reply-text">
+                                    Reply text will render here.
+                                </div>
+                                <div class="reply-footer-meta">
+                                    <span class="meta-item">🛡️ Grounding Guarantee: <strong id="res-mode-tag">Local Grounded Synthesis</strong></span>
+                                    <span class="meta-item">🏢 Detected Brand: <strong id="res-brand-tag">Generic</strong></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 2: EVALUATION DASHBOARD -->
+        <section id="tab-dashboard" class="tab-content">
+            <div class="dashboard-grid">
+                
+                <!-- Headline KPI Metric Cards -->
+                <div class="kpi-card">
+                    <div class="kpi-icon">🎯</div>
+                    <div class="kpi-val" id="kpi-accuracy">88.00%</div>
+                    <div class="kpi-label">Golden Intent Accuracy</div>
+                    <div class="kpi-sub">Baseline Majority: 10.0% (+78% Gain)</div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-icon">📈</div>
+                    <div class="kpi-val" id="kpi-f1">0.8795</div>
+                    <div class="kpi-label">Golden Macro-F1 Score</div>
+                    <div class="kpi-sub">10-Class Balanced Benchmark</div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-icon">⭐</div>
+                    <div class="kpi-val" id="kpi-rubric">4.98 / 5.0</div>
+                    <div class="kpi-label">Reply Quality Rubric Score</div>
+                    <div class="kpi-sub">5 Dimensions Across 200 Replies</div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-icon">🛡️</div>
+                    <div class="kpi-val" id="kpi-safety">90.91%</div>
+                    <div class="kpi-label">Auto-Handle Safety Rate</div>
+                    <div class="kpi-sub">20 Safe Auto-Handles / 2 FNs</div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-icon">🚨</div>
+                    <div class="kpi-val" id="kpi-recall">97.62%</div>
+                    <div class="kpi-label">Escalation Recall Rate</div>
+                    <div class="kpi-sub">82 / 84 High-Risk Inquiries Escalated</div>
+                </div>
+
+            </div>
+
+            <div class="dashboard-row">
+                <!-- Intent Confusion Matrix Card -->
+                <div class="panel matrix-panel">
+                    <div class="panel-header">
+                        <h2>📊 10x10 Intent Confusion Matrix Heatmap</h2>
+                        <span class="badge badge-secondary">Golden Evaluation Set (N=200)</span>
+                    </div>
+                    <div class="matrix-container" id="matrix-container">
+                        <div class="loading-spinner">Loading Confusion Matrix...</div>
+                    </div>
+                </div>
+
+                <!-- Rubric & Agreement Card -->
+                <div class="panel side-panel">
+                    <div class="panel-header">
+                        <h2>⭐ Reply Quality Breakdown</h2>
+                    </div>
+                    <div class="rubric-bars">
+                        <div class="rubric-item">
+                            <div class="rubric-header"><span>Relevance</span> <strong>4.93 / 5.0</strong></div>
+                            <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 98.6%;"></div></div>
+                        </div>
+                        <div class="rubric-item">
+                            <div class="rubric-header"><span>Correctness</span> <strong>5.00 / 5.0</strong></div>
+                            <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 100%;"></div></div>
+                        </div>
+                        <div class="rubric-item">
+                            <div class="rubric-header"><span>Groundedness</span> <strong>4.96 / 5.0</strong></div>
+                            <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 99.2%;"></div></div>
+                        </div>
+                        <div class="rubric-item">
+                            <div class="rubric-header"><span>Helpfulness</span> <strong>5.00 / 5.0</strong></div>
+                            <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 100%;"></div></div>
+                        </div>
+                        <div class="rubric-item">
+                            <div class="rubric-header"><span>Safety</span> <strong>5.00 / 5.0</strong></div>
+                            <div class="progress-bar-bg"><div class="progress-bar-fill green" style="width: 100%;"></div></div>
+                        </div>
+                    </div>
+
+                    <div class="human-agreement-box">
+                        <h3>👥 Inter-Rater Human Agreement (Audited N=25)</h3>
+                        <ul class="stats-list">
+                            <li><span>Exact Agreement %:</span> <strong>96.0% (24 / 25)</strong></li>
+                            <li><span>Agreement within 1-pt:</span> <strong>100.0% (25 / 25)</strong></li>
+                            <li><span>Pearson Correlation (r):</span> <strong>0.8908</strong></li>
+                            <li><span>Mean Absolute Diff (MAD):</span> <strong>0.0080</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 3: GOLDEN SET EXPLORER -->
+        <section id="tab-golden-set" class="tab-content">
+            <div class="panel">
+                <div class="panel-header">
+                    <h2>🔍 Golden Evaluation Set Benchmark Browser</h2>
+                    <span class="badge badge-primary">200 Hand-Audited Examples</span>
+                </div>
+
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <label for="intent-filter">Filter by Intent:</label>
+                        <select id="intent-filter" class="select-input">
+                            <option value="all">All 10 Intents</option>
+                            <option value="account_access_security">account_access_security</option>
+                            <option value="billing_payment_dispute">billing_payment_dispute</option>
+                            <option value="complaint_poor_service">complaint_poor_service</option>
+                            <option value="feedback_praise_resolution">feedback_praise_resolution</option>
+                            <option value="flight_travel_disruption">flight_travel_disruption</option>
+                            <option value="order_delivery_issue">order_delivery_issue</option>
+                            <option value="product_inquiry_availability">product_inquiry_availability</option>
+                            <option value="service_outage_connectivity">service_outage_connectivity</option>
+                            <option value="subscription_cancellation_refund">subscription_cancellation_refund</option>
+                            <option value="technical_hardware_software_bug">technical_hardware_software_bug</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group flex-1">
+                        <label for="golden-search">Search Text / Brand:</label>
+                        <input type="text" id="golden-search" placeholder="Type query keyword (e.g. battery, refund, AppleSupport)..." class="text-input">
+                    </div>
+                </div>
+
+                <div class="table-container">
+                    <table class="data-table" id="golden-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 50px;">ID</th>
+                                <th style="width: 120px;">Brand</th>
+                                <th>Customer Tweet Text</th>
+                                <th style="width: 180px;">Ground Truth Intent</th>
+                                <th style="width: 160px;">Baseline 2 Prediction</th>
+                                <th style="width: 90px;">Match</th>
+                            </tr>
+                        </thead>
+                        <tbody id="golden-table-body">
+                            <tr>
+                                <td colspan="6" class="text-center">Loading Golden Evaluation Examples...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 4: FAILURE ANALYSIS STUDIO -->
+        <section id="tab-failures" class="tab-content">
+            <div class="panel">
+                <div class="panel-header">
+                    <h2>⚠️ Failure Analysis & Edge Cases Studio</h2>
+                    <span class="badge badge-warning">5 Concrete Documented Failure Modes</span>
+                </div>
+                <p class="section-desc">Comprehensive analysis of non-trivial structural failures identified during evaluation on the Golden Benchmark set, complete with root-cause mechanics and mitigation plans.</p>
+
+                <div class="failure-cards-grid" id="failure-cards-container">
+                    <!-- Failure cards rendered via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+        <p>AI Customer Support Agent Studio • Built for Hiver SDE Intern Assignment • Powered by Twitter Customer Support Corpus</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
